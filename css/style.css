@@ -1,0 +1,414 @@
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .top-header{
+        background: #EFEFEF;
+        padding-top: 13px;
+    }
+    .top-header p{color: #bcbcbc;   font-family: 'Montserrat', sans-serif;
+        font-size: 14px;}
+    .top-header ul{
+        
+    list-style: none;
+        
+    margin: 0;
+        
+    padding: 0;
+        
+    display: flex;
+        
+    justify-content: space-between;
+    }
+    .top-header ul li{
+    }
+    .top-header ul li a{
+        
+text-decoration: none;
+        
+color: #bcbcbc;
+        
+font-family: 'Montserrat', sans-serif;
+        
+font-size: 14px;
+    }
+    header{margin: 15px 0;}
+    .navbar-light .navbar-nav .nav-link {
+        color: #161616;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        position: relative;
+        padding: 0;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .navbar-light .navbar-nav .nav-link::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        height: 2px;
+        width: 0%;
+        background-color: #F78F2F;
+        transition: .4s all ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+        height: 2px;
+        width: 0%;
+        background-color: #F78F2F;
+        transition: .4s all ease-in-out;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::before{
+        width: 45%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover::after{
+        width: 45%;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #F78F2F;
+    }
+    .btn-join{
+
+background: #FF9B1A;
+
+margin: 0;
+
+padding: 0;
+
+padding: 6px 16px;
+
+border-radius: 50px;
+
+color: #fff;
+
+font-family: 'Montserrat', sans-serif;
+
+font-size: 14px;
+
+margin-right: -30px;
+
+margin-left: 25px;
+
+margin-top: 3px;
+transition: .4s all ease-in-out;
+}
+.large-btn-join{
+    background: #FF9B1A;
+
+margin: 0;
+
+padding: 0;
+
+padding: 6px 16px;
+
+border-radius: 50px;
+
+color: #fff;
+
+font-family: 'Montserrat', sans-serif;
+
+font-size: 14px;
+
+margin-right: -30px;
+
+margin-left: 25px;
+
+margin-top: 3px;
+transition: .4s all ease-in-out;
+display: none;
+}
+
+.large-btn-join:hover{
+    color: #fff;
+    background-color:#dfa457;
+}
+.btn-join:hover{
+    color: #fff;
+    background-color:#dfa457;
+}
+.banner{
+background-image: url(../images/banner.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 80vh;
+}
+.hg{
+    min-height: 80vh;  
+    align-items: center;
+}
+.banner h1{
+    
+color: #fff;
+    
+font-size: 38px;
+    
+margin: 0;
+    
+font-family: 'Raleway', sans-serif;
+    
+font-weight: bolder;
+    
+margin-bottom: 35px;
+}
+.count{
+
+color: #fff;
+
+display: flex;
+
+justify-content: space-around;
+
+text-align: center;
+
+margin-bottom: 40px;
+}
+.count-item{
+    font-family: 'Raleway', sans-serif;
+}
+.count-item h5{font-family: 'Raleway', sans-serif;font-size: 20px;font-weight: 600;margin: 0;padding-bottom: 10px;}
+.count-item h6{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.contact-us{
+    background:transparent;
+    margin: 0;
+    padding: 0;
+    padding: 6px 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    transition: .4s all ease-in-out;
+    margin-left: 12px;
+    border: 1px solid #ffffff75;
+}
+.join-us{
+    background: #FF9B1A;
+
+    margin: 0;
+    
+    padding: 0;
+    
+    padding: 6px 16px;
+    
+    border-radius: 50px;
+    
+    color: #fff;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+    font-size: 14px;
+   
+    transition: .4s all ease-in-out; 
+}
+.join-us:hover{
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ffffff75;
+    color: #fff;
+}
+.contact-us:hover{
+    background: #FF9B1A;
+    border: none;
+    border: 1px solid #FF9B1A;
+    color: #fff;
+
+}
+.instruction{
+  
+}
+.instruction-item{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 60px 20px;
+    transition: .4s all ease-in-out;
+    border: 1px solid #0000001a;
+    position: relative;
+    z-index: 0;
+ }
+ .instruction-item::before{
+     content: '';
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 0%;
+     height: 0%;
+     z-index: -1;
+     transition: .4s all ease-in-out;
+ }
+ .instruction-item:hover::before{
+    width: 100%;
+    height: 100%;
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c59e06+0,e16202+100&0.85+0,0.85+100 */
+background: -moz-linear-gradient(top,  rgba(197,158,6,0.85) 0%, rgba(225,98,2,0.85) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(197,158,6,0.85) 0%,rgba(225,98,2,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(197,158,6,0.85) 0%,rgba(225,98,2,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9c59e06', endColorstr='#d9e16202',GradientType=0 ); /* IE6-9 */
+transition: .4s all ease-in-out;
+ }
+.instruction-item:hover{
+  
+    background-image: url(../images/bitcoin.png);
+    background-position: center;
+    border: none;
+   
+    
+}
+.instruction-item:hover i{
+color: #fff;
+
+}
+.instruction-item:hover h4{
+    color: #fff;
+}
+.instruction-item:hover p{
+    color: #fff;
+}
+.instruction-item i{
+
+font-size: 60px;
+    
+color: #FFA127;
+    
+margin-bottom: 20px;
+transition: .4s all ease-in-out; 
+}
+.instruction-item h4{
+    
+padding: 0;
+    
+margin: 0;
+    
+font-size: 20px;
+    
+margin-bottom: 20px;
+    
+font-family: 'Montserrat', sans-serif;
+    
+color: #000000;
+
+transition: .4s all ease-in-out; 
+}
+.instruction-item p{
+    
+margin: 0;
+    
+padding: 0;
+    
+font-family: 'Montserrat', sans-serif;
+    
+color: #545454;
+    
+font-size: 15px;
+transition: .4s all ease-in-out; 
+}
+.service{
+
+}
+.heading{
+
+}
+.heading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.heading p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #545454;
+    font-size: 14px;
+   position: relative;
+   transition: .4s all ease-in-out;
+}
+
+.heading p::before{
+    content: '';
+    position: absolute;
+    left: 44%;
+    bottom: -20px;
+    height: 2px;
+    width: 0%;
+    background-color: #F78F2F;
+    transition: .4s all ease-in-out;
+}
+.heading p::after{
+    content: '';
+    position: absolute;
+    right: 43%;
+    bottom: -20px;
+    height: 2px;
+    width: 0%;
+    background-color: #F78F2F;
+    transition: .4s all ease-in-out;
+}
+.heading:hover p::before{
+    width: 7%;
+}
+.heading:hover p::after{
+    width: 7%;
+}
+.bitcoin{
+
+}
+.bitcoin img{
+    
+width: 20%;
+    
+margin-bottom: 15px;
+    
+margin: auto;
+    
+margin-bottom: 10px;
+}
+.bitcoin h4{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 14px;
+    color: #2B2B2B;
+}
+.bitcoin p{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    color: #808080f2;
+}
+.view-btn{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border: 1px solid #0000007a;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: black;
+    background: transparent;
+    transition: .4s all ease-in-out;
+    margin-top: 80px;
+}
+.view-btn:hover{
+    color: #fff;
+    background-color: #FF9B1A;
+    border: 1px solid #FF9B1A;
+}
